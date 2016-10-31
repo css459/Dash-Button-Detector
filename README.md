@@ -21,7 +21,7 @@ be one with every press.
 can get with `ifconfig`) and the MAC address of the dash button (which you
 can get with **Wireshark**).
 
-4. Enter the code you want to run under the `EXECUTION BLOCK` comment.
+4. Enter the code you want to run in the `runfile.py` file
 
 ## Running
 
