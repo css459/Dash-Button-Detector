@@ -16,5 +16,5 @@ def arp_display(pkt):
         if pkt[ARP].hwsrc == DASH_MAC_ADDR:
             # EXECUTION BLOCK
             print "BUTTON PRESSED"
-            Popen(["python", "runfile.py"], shell=True)
+            Popen(["python", "runfile.py"])
 sniff(prn=arp_display, filter="arp", iface=WIRELESS_INTERFACE)
